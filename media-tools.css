@@ -4,3 +4,5 @@
 
 @media(max-width:800px){.edit-group{padding:7px 0}#ocrtext{min-height:150px}}
 @media(max-width:800px) and (max-height:500px){.workspace{grid-template-rows:minmax(70px,1fr) minmax(80px,var(--panel-size,100px)) 48px}.tool-tabs{height:48px}.tool-tabs button{min-height:41px}.tool-tabs button>span{font-size:16px}.app-header{height:45px}.workspace{height:calc(100dvh - 45px)}}
+
+@media(max-width:800px){#hide-settings:has(#region-actions:not([hidden])){display:flex;flex-direction:column}#hide-settings:has(#region-actions:not([hidden]))>.panel-section:has(#selected-region){order:-1;padding-top:6px}#hide-settings:has(#region-actions:not([hidden]))>.panel-section:has(#selected-region) h3{display:none}}
