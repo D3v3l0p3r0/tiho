@@ -16,4 +16,4 @@
 
 ## Сторонние компоненты
 
-MediaPipe Tasks Vision 0.10.21 и BlazeFace short-range, Google. Лицензия Apache 2.0 в MEDIAPIPE-LICENSE.txt. Tesseract.js 6.0.1, Tesseract.js-core 6.0.0 и rus/eng tessdata используются локально; лицензия Apache 2.0 в TESSERACT-LICENSE.txt. Коррекция, кадрирование, Gaussian blur и ZIP реализованы локально. Поиск номеров основан на OCR и требует проверки кандидатов.
+MediaPipe Tasks Vision 0.10.21 и BlazeFace short-range, Google. Лицензия Apache 2.0 в MEDIAPIPE-LICENSE.txt. Tesseract.js 6.0.1, Tesseract.js-core 6.0.0 и rus/eng tessdata используются локально; лицензия Apache 2.0 в TESSERACT-LICENSE.txt. Коррекция, кадрирование, Gaussian blur и ZIP реализованы локально. Области скрытия поддерживают независимые эффекты, размер и поворот.
